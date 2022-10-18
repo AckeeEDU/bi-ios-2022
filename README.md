@@ -4,6 +4,7 @@
 | --------- | -------- | -------- |
 | 01 Xcode, Swift Basics | LH | [Swift](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_1.pdf) |
 | 02 SwiftUI Basics | LH | [Getting Started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M) |
+| 03 More SwiftUI | IR | [Getting Started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M) |
 
 V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, které slouží jako hlavní zdroj informací pro tento kurz [https://cs193p.sites.stanford.edu](https://cs193p.sites.stanford.edu).
 
@@ -38,4 +39,17 @@ Rozsah práce by mělo být 3 - 5 obrazovek (může být míň, pokud to dává 
 * SwiftUI
   * `View`, `some`, `@ViewBuilder`
   * `VStack`, `HStack`, `Text`, `Button`, `Image`
-  * SFSymboly
+  * SFSymbols
+
+### 03 More SwiftUI
+* Sizing (top-down, bottom-up)
+* View modifiers
+* `LazyVGrid`/`LazyHGrid`
+* `ForEach`
+* `ScrollView`
+* Protocols
+  * `Equatable`
+  * `Hashable`
+  * `Identifiable`
+  * `Comparable`
+* `NavigationView`, `NavigationLink`
