@@ -52,4 +52,16 @@ Rozsah práce by mělo být 3 - 5 obrazovek (může být míň, pokud to dává 
   * `Hashable`
   * `Identifiable`
   * `Comparable`
-* `NavigationView`, `NavigationLink`
+
+### 04 Navigation
+* Human Interface Guidelines
+* Xcode shortcuts
+* `List`
+* Property wrappers
+* `@State`, `@Binding`, `@Environment`
+* View presentation
+  * Alert
+  * Sheet
+  * `fullScreenCover`
+* `NavigationStack`, `NavigationLink`, `NavigationPath`
+* `TabView`
