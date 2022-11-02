@@ -5,8 +5,33 @@
 | 01 Xcode, Swift Basics | LH | [Swift](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_1.pdf) |
 | 02 SwiftUI Basics | LH | [Getting Started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M) |
 | 03 More SwiftUI | IR | [Getting Started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M) |
+| 04 Navigace | IR | [Learning More about SwiftUI](https://youtu.be/3lahkdHEhW8) |
+| 05 Networking, multithreading | LH | Není |
+| 05 Async/await | LH | Není |
 
 V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, které slouží jako hlavní zdroj informací pro tento kurz [https://cs193p.sites.stanford.edu](https://cs193p.sites.stanford.edu).
+
+## 1. domácí úkol
+
+> :exclamation: Deadline: **14. 11. 2021 23:59:59**
+
+Vaším úkolem je vytvořit detailu příspěvku.
+
+Detail bude obsahovat všechny fotografie, které jsou u příspěvku nahrány = může jich být více než jenom jedna. Zobrazení je na vás, ale může se hodit pogooglit, jak se dělá `pageView` ve SwiftUI. :bulb: :smirk:
+
+Na detailu budé také vidět autorovo uživatelské jméno a nějak hezky do toho zakomponujte komentáře u daného příspěvku – všechno bude zobrazeno na jedné obrazovce.
+
+Pro načtení komentářů použijte následující url:
+```
+https://fitstagram.ackee.cz/api/feed/{postID}/comments
+```
+kde místo `{postID}` dáte ID postu, které přijde z Feedu. Na cviku jsme si říkali něco o tom, jak neblokovat hlavní vlákno, zkuste to dodržet. :pray:
+
+Všechny tyto věci zkuste hezky spojit na jedné obrazovce.
+
+Odevzdávání můžete udělat přes mail `lukas.hromadnik@ackee.cz` nebo mě pozvěte do svého repa, kde budete mít řešení, a na mail mi pošlete větev / commit, kde řešení najdu.
+
+**Bonus** (max 2 body): Přijde na obrazovku tlačítko nebo nějakou jinou akci, pomocí které se skryjí / zobrazí ostatní informace až na fotky. Tedy provedu akci, všechno až na fotky zmizí, udělám znova akci a informace se zobrazí zpět. Nechceme zobrazit novou obrazovku, kde budou pouze fotky, ale upravit tu stávající.
 
 ## Semestrální práce
 
@@ -65,3 +90,20 @@ Rozsah práce by mělo být 3 - 5 obrazovek (může být míň, pokud to dává 
   * `fullScreenCover`
 * `NavigationStack`, `NavigationLink`, `NavigationPath`
 * `TabView`
+
+### 05 Networking
+* Closures
+* REST, API
+* Request
+* `URLSession.shared.dataTask`
+
+### 06 Async/Await
+* `Codable`
+  * `CodingKeys`
+  * `init(from decoder: Dedocer)`
+  * `encode(to encoder: Encoder)`
+  * zanořené objekty
+* Async/await
+  * `Task`
+  * `@MainActor`
+  * func async
