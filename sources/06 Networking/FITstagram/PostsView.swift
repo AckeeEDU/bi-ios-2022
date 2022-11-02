@@ -35,8 +35,8 @@ struct PostsView: View {
                 if posts.isEmpty {
                     ProgressView()
                         .progressViewStyle(.circular)
-                        .onAppear {
-                            fetchPosts()
+                        .task {
+                            await fetchPosts()
                         }
                 } else {
                     ScrollView {
@@ -76,21 +76,16 @@ struct PostsView: View {
         }
     }
 
-    private func fetchPosts() {
+    private func fetchPosts() async {
         var request = URLRequest(url: URL(string: "https://fitstagram.ackee.cz/api/feed/")!)
         request.httpMethod = "GET"
 
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            if let error {
-                print("[ERROR]", error)
-                return
-            }
-
-            if let data {
-                self.posts = try! JSONDecoder().decode([Post].self, from: data)
-            }
+        do {
+            let (data, _) = try await URLSession.shared.data(for: request)
+            self.posts = try JSONDecoder().decode([Post].self, from: data)
+        } catch {
+            print("[ERROR]", error)
         }
-        task.resume()
     }
 }
 
