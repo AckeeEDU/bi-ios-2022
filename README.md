@@ -15,6 +15,8 @@ V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, kte
 
 > :exclamation: Deadline: **15. 11. 2021 23:59:59**
 
+> Dokumentace ke kompletnímu API je [zde](https://fitstagram.ackee.cz/docs/)
+
 Vaším úkolem je vytvořit detailu příspěvku.
 
 Detail bude obsahovat všechny fotografie, které jsou u příspěvku nahrány = může jich být více než jenom jedna. Zobrazení je na vás, ale může se hodit pogooglit, jak se dělá `pageView` ve SwiftUI. :bulb: :smirk:
