@@ -13,7 +13,7 @@ V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, kte
 
 ## 1. domácí úkol
 
-> :exclamation: Deadline: **14. 11. 2021 23:59:59**
+> :exclamation: Deadline: **15. 11. 2021 23:59:59**
 
 Vaším úkolem je vytvořit detailu příspěvku.
 
