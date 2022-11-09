@@ -7,7 +7,8 @@
 | 03 More SwiftUI | IR | [Getting Started with SwiftUI](https://www.youtube.com/watch?v=bqu6BquVi2M) |
 | 04 Navigace | IR | [Learning More about SwiftUI](https://youtu.be/3lahkdHEhW8) |
 | 05 Networking, multithreading | LH | Není |
-| 05 Async/await | LH | Není |
+| 06 Async/await | LH | Není |
+| 07 MVVM | IR | [MVVM](https://youtu.be/--qKOhdgJAs)<br>[More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) |
 
 V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, které slouží jako hlavní zdroj informací pro tento kurz [https://cs193p.sites.stanford.edu](https://cs193p.sites.stanford.edu).
 
@@ -109,3 +110,10 @@ Rozsah práce by mělo být 3 - 5 obrazovek (může být míň, pokud to dává 
   * `Task`
   * `@MainActor`
   * func async
+
+### 07 MVVM
+* MVVM architecture
+* `ObservableObject`, `ObservedObject`/`StateObject`, `@Published`
+* Value types vs. reference types
+* `enum` associated values
+* Error handling and debugging basics
