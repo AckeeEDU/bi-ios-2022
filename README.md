@@ -17,7 +17,7 @@ V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, kte
 
 ## 1. domácí úkol
 
-> :exclamation: Deadline: **15. 11. 2021 23:59:59**
+> :exclamation: Deadline: **15. 11. 2022 23:59:59**
 
 > Dokumentace ke kompletnímu API je [zde](https://fitstagram.ackee.cz/docs/)
 
@@ -38,6 +38,35 @@ Všechny tyto věci zkuste hezky spojit na jedné obrazovce.
 Odevzdávání můžete udělat přes mail `lukas.hromadnik@ackee.cz` nebo mě pozvěte do svého repa, kde budete mít řešení, a na mail mi pošlete větev / commit, kde řešení najdu.
 
 **Bonus** (max 2 body): Přijde na obrazovku tlačítko nebo nějakou jinou akci, pomocí které se skryjí / zobrazí ostatní informace až na fotky. Tedy provedu akci, všechno až na fotky zmizí, udělám znova akci a informace se zobrazí zpět. Nechceme zobrazit novou obrazovku, kde budou pouze fotky, ale upravit tu stávající.
+
+## 2. domácí úkol
+
+> :exclamation: Deadline: **13. 12. 2022 23:59:59**
+
+Vaším druhým úkolem bude vytvořit obrazovku a kompletní logiku pro přidání nového příspěvku.
+
+Každý nový příspěvek bude obsahovat vybranou fotografii a popisek. Oba parametry jsou povinné.
+
+UI pro vytvoření příspěvku je ve vašich rukou. Napojte novou obrazovku na "+" tlačítko, které je na hlavní stránce.
+
+Základní flow pro přídání příspěvku by mělo být následující:
+
+1. Tapnu na "+" a zobrazí se mi obrazovka pro přidání nového příspěvku.
+2. Na této obrazovce vyberu obrázek z galerie (nebo třeba i foťáku, nepovinné), který se potom zobrazí.
+3. Pomocí textového pole přidám k obrázku popisek.
+4. Tapnutím na nějaké další tlačítko se sestaví request na API a data se odešlou.
+6. Vrátí-li se ze serveru chyba, zobrazte ji.
+7. Po úspěšném vytvoření a odeslání příspěvku jsem přesměrován zpět na seznam.
+8. Na seznamu mám možnost na nový příspěvek nascrollovat.
+
+Pro vytvoření příspěvku použijte tento [endpoint](https://fitstagram.ackee.cz/docs/#/Feed/post_feed).
+
+Fotografie je potřeba před odesláním na server upravit.
+
+1. Šířka ani výška fotografie nesmí přesáhnout 2048 pixelů. Může tedy vzniknout potřeba obrázek zmenšit. 
+2. Fotky posílejte na server jako JPEG zakódovaný do řetězce pomocí base64.
+
+Obě výše zmíněné operace jsme na cvikách neukazovali, ale jednoduchým Googlením se dostanete k odpovědím. Pokud by se nedařilo, dáme vám k dispozici kód, pomocí kterého to uděláte. Záměrně vám to nechceme dávat hned na začátek, ať si to můžete zkusit. Opravdu to není nic složitého.
 
 ## Semestrální práce
 
