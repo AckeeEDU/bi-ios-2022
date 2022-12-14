@@ -11,7 +11,8 @@
 | 07 MVVM | IR | [MVVM](https://youtu.be/--qKOhdgJAs)<br>[More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) |
 | 08 MVVM + UIImagePicker | LH | [MVVM](https://youtu.be/--qKOhdgJAs)<br>[More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) |
 | 09 Environment | LH | Není |
-| 10 Persistence | IR  | [Persistence](https://youtu.be/pT5yiBu2xbU)<br>[More Persistence (Core Data, CloudKit)](https://youtu.be/wX3ruVLlWPg)
+| 10 Persistence | IR  | [Persistence](https://youtu.be/pT5yiBu2xbU)<br>[More Persistence (Core Data, CloudKit)](https://youtu.be/wX3ruVLlWPg) |
+| 11 Push notifications | IR  | Není |
 
 V průběhu kurzu doporučujeme shlédnout online přednášky ze Stanfordu, které slouží jako hlavní zdroj informací pro tento kurz [https://cs193p.sites.stanford.edu](https://cs193p.sites.stanford.edu).
 
@@ -155,3 +156,10 @@ Rozsah práce by mělo být 3 - 5 obrazovek (může být míň, pokud to dává 
 * `UserDefaults`
 * `Core Data`
 * `CloudKit`
+
+### 11 Push notifications
+* Code signing, APNS key
+* Push notifications
+* Notification Service Extension
+* iMessage Extension
+* SwiftUI <-> UIKit interfacing
