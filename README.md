@@ -42,7 +42,7 @@ Odevzdávání můžete udělat přes mail `lukas.hromadnik@ackee.cz` nebo mě p
 
 ## 2. domácí úkol
 
-> :exclamation: Deadline: **13. 12. 2022 23:59:59**
+> :exclamation: Deadline: **12. 12. 2022 23:59:59**
 
 Vaším druhým úkolem bude vytvořit obrazovku a kompletní logiku pro přidání nového příspěvku.
 
